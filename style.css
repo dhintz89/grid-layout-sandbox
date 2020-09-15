@@ -1,0 +1,34 @@
+* {
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+ .product-card {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    max-width: 100%;
+    outline: 1px solid black;
+    float: left;
+  } 
+  
+  .pic {
+    position: relative;
+    display: flex;
+  }
+  
+  .product-card h5 {
+    font-size: 1.5em;
+    margin: 0;
+    position: absolute;
+    bottom: 15%;
+    opacity: 60%;
+    max-width: fit-content;
+  }
+  
+  .product-card button {
+    max-width: 6.5em;
+    margin-top: 7px;
+  }
