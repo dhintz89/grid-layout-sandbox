@@ -5,6 +5,62 @@
     position: relative;
   }
 
+  .logo-wrapper {
+    font-size: 3.5em;
+    font-weight: 700;
+    height: 4.2em;
+    width: 9em;
+    display:flex;
+  }
+
+  .logo  {
+    height: 100%;
+    width: 45%;
+    position: relative;
+    display: flex;
+  }
+
+  .logo img {
+    position: absolute;
+    display: flex;
+    width: 100%;
+  }
+
+  .logo-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 2% 0.6em 2% 0;
+    justify-content:center;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  .logo-text .hintz {
+    color: #619DFF;
+  }
+
+  .letters {
+    display: block;
+    height: 25%;
+    line-height: 100%;
+    margin: 2% 0;
+    color: #00004B; 
+  }
+
+  .cursor {
+    /* opacity: 0; */
+    position: absolute;
+    /* move 0.6em per letter */
+    left: 0;
+    bottom: -12%;
+    height: .1em;
+    width: .6em;
+    margin-top: 1%;
+    background-color: black;
+    transform-origin: 0 50%;
+  }
+
  .product-card {
     display: flex;
     flex-direction: column;
@@ -53,4 +109,5 @@
     gap: 10px;
     justify-items: center;
     align-items: center;
+    margin-top: 10%;
   }
