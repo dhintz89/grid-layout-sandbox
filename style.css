@@ -5,6 +5,8 @@
     position: relative;
   }
 
+  /* ### Logo ### */
+
   .logo-wrapper {
     font-size: 3.5em;
     font-weight: 700;
@@ -86,6 +88,50 @@
     z-index: 1;
   }
 
+  /* ### Window ### */
+  .open-window {
+    background-color: lightblue;
+    color: navy;
+    top: 100px;
+  }
+
+  .window {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 70em;
+    height: 40em;
+    background-color: lightblue;
+    opacity: 95%;
+    outline: 1px solid black;
+    z-index: 1;
+    box-shadow: 0 10px 30px 10px blue;
+  }
+
+  .window-header {
+    background-color: #e3e2e1;
+    height: 5%;
+  }
+
+  .window-close {
+    background-color: red;
+    color: white;
+    float: right;
+    height: 80%;
+    top: 9%;
+    right: .5%;
+  }
+
+  .window-body * {
+    background-color: lightblue;
+  }
+
+  .window-body p {
+    padding: 3% 5%;
+  }
+
+  /* ### Products ### */
+
  .product-card {
     display: flex;
     flex-direction: column;
@@ -135,4 +181,8 @@
     justify-items: center;
     align-items: center;
     margin-top: 10%;
+  }
+
+  .hidden {
+    visibility: hidden;
   }
